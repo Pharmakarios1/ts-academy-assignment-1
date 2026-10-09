@@ -1,0 +1,8 @@
+services:
+  diagnostic-cli:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: diagnostic-cli
+    environment:
+      - ENV=production
